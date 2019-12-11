@@ -1,0 +1,83 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[12pt]{article}
+\usepackage{epsfig}
+\usepackage{times}
+\renewcommand{\topfraction}{1.0}
+\renewcommand{\bottomfraction}{1.0}
+\renewcommand{\textfraction}{0.0}
+\setlength {\textwidth}{6.6in}
+\hoffset=-1.0in
+\oddsidemargin=1.00in
+\marginparsep=0.0in
+\marginparwidth=0.0in                                                            \usepackage{amsmath} 
+\usepackage{fixltx2e}
+\setlength {\textheight}{9.0in}
+\voffset=-1.00in
+\topmargin=1.0in
+\headheight=0.0in
+\headsep=0.00in
+\footskip=0.50in                                         
+%\setcounter{page}{1}
+\begin{document}
+\def\pos{\medskip\quad}
+\def\subpos{\smallskip \qquad}
+\newfont{\nice}{cmr12 scaled 1250}
+\newfont{\name}{cmr12 scaled 1080}
+\newfont{\swell}{cmbx12 scaled 800}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+{\large\bf
+PHYSICS  20323/60323: Fall 2019 - LaTeX Example}\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{center}
+\begin{enumerate}
+\item {Consider a particle confined in a two-dimensional infinite square well}
+\[V(x,y)= \bigg\{ \frac{0}{\infty}\begin{array}{cc}
+    , & 0\leq x \leq a   ,   0 < y < a \\ 
+   , & otherwise \\
+   \end{array}
+\]
+The eigenfunctions have the form:
+\begin{align*}
+    \large{\Psi(x,y)= \frac{2}{a}\sin{\left( \frac{n\pi x}{a}\right)}\sin{\left(\frac{m\pi y}{a}\right)}}
+\end{align*}
+with the corresponding energies being given by:
+\begin{center}
+     \large{$E_{nm}=(n^{2}+m^{2})$} \Large{$\frac{\pi^{2}\hbar^{2}}{2ma^2}$}
+\end{center}
+\begin{enumerate}
+    \item (5 points) What are the levels of degeneracy of the five lowest energy values?
+    \item (5 points) Consider a perturbation given by:
+\end{enumerate}
+\begin{center}
+    \large{$\hat{H}^{\prime}=a^{2}V_{0}\delta\left(x-\frac{a}{2}\right)\delta\left(y-\frac{a}{2}\right)$}
+\end{center}
+\hspace{0.75cm} Calculate the first order correction to the ground state energy. 
+\item {\bf The following questions refer to stars in the Table below.}\\
+Note: There may be multiple answers.\\
+\\
+\begin{tabular}{ |c|c|c|c|c|c| } 
+ \hline
+ Name & Mass & Luminosity & Lifetime & Temperature & Radius \\ \hline
+ Zeta & 60. \textit{M\textsubscript{sun}} & 10\textsuperscript{6} \textit{L\textsubscript{sun}} & 8.0 $\times$10\textsuperscript{5} years &  &  \\ \hline
+ Epsilon & 6.0 \textit{M\textsubscript{sun}} & 10\textsuperscript{3} \textit{L\textsubscript{sun}} &  & 20,000 K &  \\ \hline
+ Delta & 2.0 \textit{M\textsubscript{sun}} &  & 5.0 $\times$10\textsuperscript{8} years &  & 2 \textit{R\textsubscript{sun}}\\ \hline
+ Beta & 1.3 \textit{M\textsubscript{sun}} & 3.5  \textit{L\textsubscript{sun}} &  &  &  \\ \hline
+ Alpha & 1.0 \textit{M\textsubscript{sun}} &  &  &  & 1 \textit{R\textsubscript{sun}} \\ \hline
+ Gamma & 0.7 \textit{M\textsubscript{sun}} &  & 4.5 $\times$10\textsuperscript{10} years & 5000 K &  \\ \hline
+\end{tabular}
+\vskip 0.2in
+\begin{enumerate}
+    \item (4 points) Which of these stars will produce a planetary nebula at the end of their life
+    \vskip 0.5in
+    \item (4 points) Elements heavier than Carbon will be produced in which stars?
+\end{enumerate}
+\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
